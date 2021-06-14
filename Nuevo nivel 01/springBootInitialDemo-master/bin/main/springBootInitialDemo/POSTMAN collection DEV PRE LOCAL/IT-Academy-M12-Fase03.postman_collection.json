@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "f50cc95f-cfb7-450d-9878-698bdba920c0",
+		"name": "IT-Academy-M12-Fase03",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DEV",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/dev.domain.com/lara",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"dev.domain.com",
+						"lara"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PRE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pre.domain.com/lara",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pre.domain.com",
+						"lara"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LOCAL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/localhost/lara",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"localhost",
+						"lara"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
